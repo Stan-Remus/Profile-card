@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+    .img_top{
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        height: 50vh;
+    }
+    .img_bottom{
+        position: absolute;
+        bottom: -10vh;
+        right: -10vw;
+        height: 50vh;
+    }
+    .card{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        height: 60vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .card_top{
+            width: 60vw;
+            height: 20vh;
+            background-image: url("./New folder/images/bg-pattern-card.svg");
+        }
+        .card_middle{
+            width: 60vw;
+            height: 20vh;
+        }
+        .card_bottom{
+            width: 60vw;
+            height: 20vh;
+        }
+    }
+}

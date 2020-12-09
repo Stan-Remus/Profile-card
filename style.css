@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #19a2ae;
+  overflow: hidden;
+}
+
+.wrapper .img_top {
+  position: absolute;
+  top: -10vh;
+  left: -10vw;
+  height: 50vh;
+}
+
+.wrapper .img_bottom {
+  position: absolute;
+  bottom: -10vh;
+  right: -10vw;
+  height: 50vh;
+}
+
+.wrapper .card {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 60vh;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .card .card_top {
+  width: 60vw;
+  height: 20vh;
+  background-image: url("./New folder/images/bg-pattern-card.svg");
+}
+
+.wrapper .card .card_middle {
+  width: 60vw;
+  height: 20vh;
+}
+
+.wrapper .card .card_bottom {
+  width: 60vw;
+  height: 20vh;
+}
+/*# sourceMappingURL=style.css.map */
