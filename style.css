@@ -211,7 +211,7 @@
   font-family: 'Kumbh Sans', sans-serif;
 }
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 600px) {
   .wrapper .card {
     height: 60vh;
     width: 60vw;
